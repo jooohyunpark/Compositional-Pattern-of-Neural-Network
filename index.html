@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Compositional Pattern of Neural Network</title>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <link rel="shortcut icon" href="img/cpnn.png">
+    <link rel="apple-touch-icon" href="img/cpnn.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Compositional Pattern of Neural Network</h2>
+        <p id="networkText"></p>
+        <input type="range" id="networkSize" class="slider" min="0" max="16" value="8" step="1">
+        <br> <br> <br> <br>
+        <p id="hiddenText"></p>
+        <input type="range" id="hiddenNum" class="slider" min="0" max="8" value="4" step="1">
+    </div>
+
+    <div id="container">
+    </div>
+
+    <script src="lib/recurrent.js"></script>
+    <script src="network.js"></script>
+</body>
+
+</html>
